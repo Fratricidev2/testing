@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <head><style> body {text-align: center;
-                    url("https://codecademy-content.s3.amazonaws.com/courses/web-beginner-en-3pc6w/images/splash.jpg");
-                    color: white;
+                    color: black;
                     font-family: Helvetica;
+                    url("http://rack.3.mshcdn.com/media/ZgkyMDEzLzA0LzMwLzFlL2NvZGluZ2Z1dHVyLmQ1MzY5LmpwZwpwCXRodW1iCTk1MHg1MzQjCmUJanBn/fce2cac8/a4d/coding-future.jpg");
+
                     background-size:cover;
                     background-position: center center;
                     background-repeat:no-repeat;
@@ -10,13 +11,25 @@
                     }
     p {font-size: 24px;}
 
-    input {border: 0;}
+    input {
+        border: 0;
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    input[type="submit"] {
+        background: limegreen;
+        color: black;
+
+    }
+
+
 
 </style></head>
 <body>
 <!-- I'm a comment. You won't actually see me on the web page.
      You should write your header in the line below me! -->
-<img src="https://codecademy-content.s3.amazonaws.com/courses/web-beginner-en-3pc6w/images/avatar.jpg" height="250" width="250">
+<img src="http://rack.3.mshcdn.com/media/ZgkyMDEzLzA0LzMwLzFlL2NvZGluZ2Z1dHVyLmQ1MzY5LmpwZwpwCXRodW1iCTk1MHg1MzQjCmUJanBn/fce2cac8/a4d/coding-future.jpg" height="250" width="250">
 <p>Hi, my name is Mike and I'm learning how to use HTML.</p>
 <input type="email" placeholder="Email">
 <input type="submit">
