@@ -7,21 +7,16 @@
                     background-size:cover;
                     background-position: center center;
                     background-repeat:no-repeat;
-                    background-attachment: fixed;
-                    }
+                    background-attachment: fixed; }
     p {font-size: 24px;}
 
-    input {
-        border: 0;
-        padding: 12px;
-        font-size: 18px;
-    }
+    input {border: 0;
+           padding: 12px;
+           font-size: 18px;}
 
     input[type="submit"] {
         background: limegreen;
-        color: black;
-
-    }
+             color: black; }
 
 
 
